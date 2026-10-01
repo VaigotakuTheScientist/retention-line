@@ -1,6 +1,6 @@
 # The Retention Line
 
-A quiet, mobile-friendly webnovel reader. Includes Volume I, *The Present That Never Was*, and Chapter 1, *What Had Already Ended*, using the English translation supplied in the conversation.
+A quiet, mobile-friendly webnovel reader. Includes Volume I, *The Present That Never Was*, and Chapters 1–4 in the original Russian and English translation.
 
 Features: comfortable serif typography, paper and night themes, adjustable text size and reading width, volume/chapter contents and previous/next chapter navigation. English/Russian links switch between the original Russian text and the English translation of that source. Display preferences stay on the reader's device. No analytics, external fonts or runtime dependencies. The complete chapter remains readable without JavaScript.
 
@@ -55,4 +55,4 @@ The site uses relative URLs and works under a repository subpath.
 
 No license is granted for the novel text by this repository.
 
-The Russian chapter text is copied verbatim from the original Google Doc, including its paragraph structure. The English version is a literary translation checked against that original. Russian files are rendered as plain text; only English files use the minimal Markdown formatting.
+The Russian chapter text is copied verbatim from the original Google Docs, including its paragraph structure. The English version is a literary translation checked against that original. Russian files are rendered as plain text; only English files use the minimal Markdown formatting.

@@ -12,6 +12,30 @@
           "file": "chapters/volume-1-chapter-1.md",
           "title_ru": "То, что уже закончилось",
           "file_ru": "chapters/volume-1-chapter-1.ru.md"
+        },
+        {
+          "number": 2,
+          "title": "The Road That Isn’t There",
+          "title_ru": "Дорога, которой нет",
+          "slug": "volume-1-chapter-2",
+          "file": "chapters/volume-1-chapter-2.md",
+          "file_ru": "chapters/volume-1-chapter-2.ru.md"
+        },
+        {
+          "number": 3,
+          "title": "The Node That Isn’t Counted",
+          "title_ru": "Узел, который не считается",
+          "slug": "volume-1-chapter-3",
+          "file": "chapters/volume-1-chapter-3.md",
+          "file_ru": "chapters/volume-1-chapter-3.ru.md"
+        },
+        {
+          "number": 4,
+          "title": "The Man the Network Never Wrote Off",
+          "title_ru": "Человек, которого сеть не списала",
+          "slug": "volume-1-chapter-4",
+          "file": "chapters/volume-1-chapter-4.md",
+          "file_ru": "chapters/volume-1-chapter-4.ru.md"
         }
       ],
       "title_ru": "Настоящее, которого не было"
