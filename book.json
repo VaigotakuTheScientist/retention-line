@@ -1,0 +1,17 @@
+{
+  "title": "The Retention Line",
+  "volumes": [
+    {
+      "title": "The Present That Never Was",
+      "number": "I",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "What Had Already Ended",
+          "slug": "volume-1-chapter-1",
+          "file": "chapters/volume-1-chapter-1.md"
+        }
+      ]
+    }
+  ]
+}
