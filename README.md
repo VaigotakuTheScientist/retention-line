@@ -4,6 +4,10 @@ A quiet, mobile-friendly webnovel reader. Includes Volume I, *The Present That N
 
 Features: comfortable serif typography, paper and night themes, adjustable text size and reading width, volume/chapter contents and previous/next chapter navigation. English/Russian links switch between the original Russian text and the English translation of that source. Display preferences stay on the reader's device. No analytics, external fonts or runtime dependencies. The complete chapter remains readable without JavaScript.
 
+## Translation continuity
+
+Before adding or translating chapters, read [TRANSLATION.md](TRANSLATION.md) and [GLOSSARY.md](GLOSSARY.md). They document the published names, technical terms, style, and review workflow. [AGENTS.md](AGENTS.md) directs future editing agents to consult and maintain them. These maintainer documents contain spoilers through Chapter 4 and are not part of the reader interface.
+
 ## Add a chapter
 
 1. Create a UTF-8 Markdown file in `chapters/`, for example `volume-1-chapter-2.md`.
