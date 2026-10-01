@@ -66,7 +66,7 @@ He would have explained the difference between preliminary classification and er
 
 Western Elgarion looked as though the great war existed only on maps and expense sheets.
 
-Low green hills stretched to the horizon. Mana-driven harvesting platforms moved slowly across the fields. Small energy towers stood beside the road, transmitting power between settlements. Somewhere in the distance, a water station gleamed white.
+Low green hills stretched to the horizon. Mana-driven harvesting platforms moved slowly across the fields. Small energy towers stood beside the road, transmitting power between settlements. Somewhere in the distance, a water-pumping station gleamed white.
 
 No smoke.
 

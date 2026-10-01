@@ -9,9 +9,13 @@
           "number": 1,
           "title": "What Had Already Ended",
           "slug": "volume-1-chapter-1",
-          "file": "chapters/volume-1-chapter-1.md"
+          "file": "chapters/volume-1-chapter-1.md",
+          "title_ru": "То, что уже закончилось",
+          "file_ru": "chapters/volume-1-chapter-1.ru.md"
         }
-      ]
+      ],
+      "title_ru": "Настоящее, которого не было"
     }
-  ]
+  ],
+  "title_ru": "Линия Ретенции"
 }
