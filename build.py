@@ -122,7 +122,8 @@ for lang, u in UI.items():
         sections.append(f'<section class="volume"><p class="eyebrow">{u["volume"]} {esc(v["number"])}</p><h2>{esc(localized(v, "title", lang))}</h2><ol class="chapter-list">{links}</ol></section>')
     extra_heading = 'Отдельно от романа' if lang == 'ru' else 'Outside the novel'
     extra_label = 'Самостоятельный рассказ' if lang == 'ru' else 'Standalone short story'
-    extra_title = 'Последовательность Сомнительной Значимости' if lang == 'ru' else 'A Sequence of Questionable Significance (Russian)'
-    extras_html = f'<section class="volume" aria-label="{esc(extra_heading)}"><p class="eyebrow">{esc(extra_heading)}</p><h2>{esc(extra_label)}</h2><ol class="chapter-list"><li><a href="questionable-sequence.ru.html" lang="ru"><span>{esc(extra_title)}</span><span aria-hidden="true">→</span></a></li></ol></section>'
+    extra_title = 'Последовательность Сомнительной Значимости' if lang == 'ru' else 'A Sequence of Questionable Significance'
+    story_href = 'questionable-sequence.ru.html' if lang == 'ru' else 'questionable-sequence.html'
+    extras_html = f'<section class="volume" aria-label="{esc(extra_heading)}"><p class="eyebrow">{esc(extra_heading)}</p><h2>{esc(extra_label)}</h2><ol class="chapter-list"><li><a href="{story_href}" lang="{lang}"><span>{esc(extra_title)}</span><span aria-hidden="true">→</span></a></li></ol></section>'
     (OUT / url('contents', lang)).write_text(shell(u['contents'], f'<main id="main" class="reading contents" tabindex="-1"><p class="eyebrow">{esc(book_title)}</p><h1>{u["contents"]}</h1>{"".join(sections)}{extras_html}</main>', f'{u["contents"]} — {book_title}', lang, 'contents'))
 print(f'Built {len(chapters)} chapter(s) in English and Russian in {OUT}')
